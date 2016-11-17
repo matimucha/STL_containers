@@ -2,7 +2,7 @@
 #include <set>
 #include <algorithm>
 
-std::set<int> mySet = {1, 2, 3, 4 ,5, 6, 7};
+std::set<int> mySet = {1, 2, 3, 4, 5, 6, 7};
 
 
 int main()
