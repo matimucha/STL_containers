@@ -22,8 +22,8 @@ int main()
         ++it;
     }*/
     myVector.reserve(10000000);
-    for(int i = 0; i < 10000000; ++i)
-    {
+    for(int i = 0; i < 10000000; ++i) //may be replaced by std::iota(myVector.begin(), myVector.end(), 1)
+    {                                 //iota adds values incrementing it for each addition
         myVector.push_back(i);
     }
     std::cout<<myVector.at(500000);
